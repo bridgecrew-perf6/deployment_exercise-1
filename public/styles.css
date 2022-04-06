@@ -1,3 +1,66 @@
 h1 {
-    color: red;
+    color: #FFD302;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+
+h2{
+    padding-bottom: 15px;
+    margin: 0%;
+    font-family: 'Share Tech Mono', monospace;
+    text-align: center;
+}
+
+body {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: black;
+    padding: 25px;
+}
+
+#mainBody {
+    border: solid 2px;
+    padding: 20px;
+    text-align: center;
+    color: #52be23;
+    font-family: 'Share Tech Mono', monospace;
+    max-width: 900px;
+}
+
+#disclaimer{
+    color: white;
+    font-size: x-small;
+    font-family: 'Share Tech Mono', monospace;
+}
+#apply{
+    box-sizing: border-box;
+    display: flex;
+    color: #52be23;
+    margin: 30px;
+    width: 50%;
+    border: solid;
+    padding: 25px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#aboutForm{
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+}
+#workExp{
+    width: 100%;
+    height: 40px;
+}
+
+#submitButton{
+    
 }

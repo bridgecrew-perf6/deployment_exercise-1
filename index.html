@@ -5,10 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Share+Tech+Mono&display=swap" rel="stylesheet"> 
     <title>Document</title>
 </head>
 <body>
-    <h1>Yo dawg</h1>
+    <header><img src="https://static.wikia.nocookie.net/avp/images/3/36/Weyland-Yutani_Coporation_Logo.jpg"Weyland-Yutani_logo" width="300"></header>
+    <h1>NOW HIRING COMMERCIAL HAULERS</h1>
+    <section> <img src="https://nostromo.joeh.org/content/nostromo/nostro01.jpg" alt=""></section>
+    <section id="mainBody">If you have ever wanted to explore the deep reaches of space while getting paid this may be just the opportunity you have been waiting for! Our crewmembers have state-of-the-art onboard computers called "MU-TH-UR" that do most the work for you while you chill out in the dreamless sleep of cryosleep. Full shares of pay for crew members (maintenance excluded). The faster you work, the faster you come home and get paid.*</section>
+    <section id="disclaimer"">*crew may be routed to respond to distress beacons as needed</section>
+    <section id="apply">   
+        <h2>Submit info if interested</h2>
+        <section id="topForm">
+            <input type="text" placeholder="Your name" name="nameField" id="nameField">
+            <select name="jobtype" id="jobType" placeholder="select postion">
+                <option value="" disabled selected hidden>Select Role</option>
+                <option value="pilot">Pilot</option>
+                <option value="captain">Captain</option>
+                <option value="engineer">Engineer</option>
+                <option value="mechanic">Mechanic</option>
+            </select> 
+        </section>
+        <section id="aboutForm">
+            <input type="text" placeholder="Tell us about your work experience" id="workExp">
+        </section>
+       <button type="submit" id="submitButton">Submit inquiry</button>
+    </section>
 
     <script src="main.js"></script>
 </body>
